@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import logo from './images/pikachu.jpg';
 import './css/Header.css';
 
 class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <div className="Logo">
-          <img src={logo} alt="logo"/>
-            <h2> Hola mundo reactJS </h2>
+        <div className="Titulo">
+            <h2> Pikachu, el pokemon eléctrico </h2>
         </div>
       </div>
     );
