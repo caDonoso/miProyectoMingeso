@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './css/Content.css';
 import PokeCards from '../global/PokeCards';
+import Sliders from '../global/Sliders';
 
 import pikachuIMG from "./images/pikachu.jpg";
 import raichuIMG from "./images/raichu.png";
+
 
 class Content extends Component {
     pikachuCard = {
@@ -27,6 +29,10 @@ class Content extends Component {
   render() {
     return (
       <div className="container-fluid">
+          <div className="row">
+              <Sliders />
+          </div>
+
           <div className="row">
               <PokeCards name={this.pikachuCard.name}
                          text={this.pikachuCard.text}
