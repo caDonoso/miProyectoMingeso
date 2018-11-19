@@ -1,5 +1,6 @@
 // Dependencies
 import React, { Component } from 'react';
+import 'bootstrap';
 
 // Components
 import Header from './global/Header';
