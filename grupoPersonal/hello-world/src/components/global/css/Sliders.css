@@ -1,0 +1,13 @@
+.carousel img{
+    margin: auto;
+}
+
+.center-div{
+    margin: auto;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display: block !important;
+}

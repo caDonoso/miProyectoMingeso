@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './css/Content.css';
 import PokeCards from '../global/PokeCards';
 import Sliders from '../global/Sliders';
+import Jumbotron from '../global/Jumbotron'
 
 import pikachuIMG from "./images/pikachu.jpg";
 import raichuIMG from "./images/raichu.png";
@@ -32,6 +33,10 @@ class Content extends Component {
           <div className="row">
               <Sliders />
           </div>
+
+          <br/>
+
+          <Jumbotron />
 
           <div className="row">
               <PokeCards name={this.pikachuCard.name}

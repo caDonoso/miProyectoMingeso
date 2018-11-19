@@ -12,7 +12,7 @@ class Header extends Component {
                           <img className="float-left" src={pokebolaIMG} style={{width: '40px', height: '40px'}}/>
                       </a>
                       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                          <span className="navbar-toggler-icon"></span>
+                          <span className="navbar-toggler-icon"> </span>
                       </button>
                       <div className="navbar-collapse collapse" id="navbarResponsive">
                           <ul className="navbar-nav ml-auto">
